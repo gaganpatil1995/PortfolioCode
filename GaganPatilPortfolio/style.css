@@ -76,7 +76,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: #67ed96;
+  color: #bddfc9;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -93,7 +93,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #67ed96;
+  background: #b7ada3;
 }
 .navbar .max-width {
   display: flex;
@@ -106,7 +106,7 @@ section .title::after {
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: #67ed96;
+  color: #b7ada3;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -125,7 +125,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: #00ff99;
+  color: #b7ada3;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -149,7 +149,7 @@ section .title::after {
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color: #67ed96;
+  color: #b7ada3;
   z-index: 9999;
   font-size: 30px;
   border-radius: 6px;
@@ -171,7 +171,7 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("data:image/jpeg;base64,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") no-repeat center;
+  background: url("https://www.shutterstock.com/image-photo/digital-technology-software-development-concept-600w-2111828198.jpg") no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
@@ -200,23 +200,23 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: #67ed96;
+  color: #b7ada3;
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: #67ed96;
+  background: #b7ada3;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid #67ed96;
+  border: 2px solid #b7ada3;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: #67ed96;
+  color: #b7ada3;
   background: none;
 }
 
@@ -258,18 +258,18 @@ section .title::after {
 }
 .about .about-content .right a {
   display: inline-block;
-  background: #67ed96;
+  background: #b7ada3;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #ffcc00;
+  border: 2px solid #b7ada3;
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: #67ed96;
+  color: #b7ada3;
   background: none;
 }
 .about .title::after {
@@ -303,7 +303,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .services .serv-content .card:hover {
-  background: #67ed96;
+  background: #b7ada3;
   color: #555;
   /* change*/
 }
@@ -315,7 +315,7 @@ section .title::after {
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: #67ed96;
+  color: #b7ada3;
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
@@ -358,18 +358,18 @@ section .title::after {
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: #67ed96;
+  background: #b7ada3;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #67ed96;
+  border: 2px solid #b7ada3;
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: #67ed96;
+  color: #b7ada3;
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -397,7 +397,7 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background: #67ed96;
+  background: #b7ada3;
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -428,7 +428,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .project .carousel .card:hover {
-  background: #67ed96;
+  background: #b7ada3;
   color: #000;
   /* change */
 }
@@ -490,7 +490,7 @@ section .title::after {
   width: 250px;
   object-fit: cover;
   border-radius: 5%;
-  border: 5px solid #67ed96;
+  border: 5px solid #b7ada3;
   transition: all 0.3s ease;
 }
 .project .carousel .card:hover img {
@@ -507,7 +507,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid #67ed96 !important;
+  border: 2px solid #b7ada3 !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -516,7 +516,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: #67ed96 !important;
+  background: #b7ada3 !important;
 }
 .skills-images {
   width: 120px;
@@ -551,7 +551,7 @@ section .title::after {
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: #67ed96;
+  color: #b7ada3;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -618,12 +618,12 @@ section .title::after {
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: #67ed96;
-  border: 2px solid #67ed96;
+  background: #b7ada3;
+  border: 2px solid #b7ada3;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-  color: #67ed96;
+  color: #b7ada3;
   background: none;
 }
 /* footer section styling */
@@ -634,7 +634,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: #67ed96;
+  color: #b7ada3;
   text-decoration: none;
 }
 footer span a:hover {
